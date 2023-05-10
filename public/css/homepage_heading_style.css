@@ -1,0 +1,122 @@
+.177_53 { 
+}
+.heading_177_53 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.group_15_177_54 { 
+	width:1282px;
+	height:108px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.group_5_177_55 { 
+	width:1282px;
+	height:69px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.rectangle_4_177_56 { 
+	background-color:rgba(130.68749696016312, 130.68749696016312, 130.68749696016312, 1);
+	width:2000px;
+	height:69px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.account_name_177_57 { 
+	color:rgba(255, 255, 255, 1);
+	width:200;
+	height:19px;
+	position:absolute;
+	left:1042px;
+	top:24px;
+	font-family:Open Sans;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.bicol_car_service_providers_177_58 { 
+	color:rgba(255, 255, 255, 1);
+	width:213px;
+	height:18px;
+	position:absolute;
+	left:140px;
+	top:26px;
+	font-family:Open Sans;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.home_177_59 { 
+	color:rgba(255, 255, 255, 1);
+	width:68px;
+	height:27.84375px;
+	position:absolute;
+	left:777px;
+	top:24px;
+	font-family:Open Sans;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.messages_177_60 { 
+	color:rgba(255, 255, 255, 1);
+	width:77px;
+	height:22px;
+	position:absolute;
+	left:952px;
+	top:24px;
+	font-family:Open Sans;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.notification_177_61 { 
+	color:rgba(255, 255, 255, 1);
+	width:130px;
+	height:27.84375px;
+	position:absolute;
+	left:845px;
+	top:24px;
+	font-family:Open Sans;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.frame_5_177_62 { 
+	width:133px;
+	height:108px;
+	position:absolute;
+	left:1146px;
+	top:0px;
+}
+.image_1_177_64 { 
+	width:72px;
+	height:77px;
+	position:absolute;
+	left:1176px;
+	top:7px;
+	border-top-left-radius:164.5px;
+	border-top-right-radius:164.5px;
+	border-bottom-left-radius:164.5px;
+	border-bottom-right-radius:164.5px;
+	background-image:url(images/image_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.logo_bspw_177_63 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:88px;
+	height:88px;
+	position:absolute;
+	left:31px;
+	top:8px;
+}
