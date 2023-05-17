@@ -7,7 +7,7 @@
           <head>
             <meta charset="utf-8">
           
-            <title>Html Generated</title>
+            <title>Bicol Car Service Providers</title>
             <meta name="description" content="Figma htmlGenerator">
             <meta name="author" content="htmlGenerator">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -67,7 +67,7 @@
   </div>
 </form>
     <div class=group_27_178_4>
-      <span  class="edit_profile_photo_177_113">Edit Profile Photo</span>
+      <span  class="edit_profile_photo_177_113">Profile Photo</span>
       <div class="ellipse_4_177_109"></div>
       <div class=account_177_110>
         <div class="vector_177_111"></div>
