@@ -33,8 +33,10 @@ return new class extends Migration
             $table->string('name')->nullable();
         });
 
-        // Copy the `companyname` and `username` values to `name` column
+
         DB::table('users')->update(['name' => DB::raw('IFNULL(companyname, CONCAT(username, " ", companyname))')]);
+        // Copy the `companyname` and `username` values to `name` column
+
     }
 
     /*

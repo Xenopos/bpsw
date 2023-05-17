@@ -99,5 +99,4 @@ Route::group(['middleware' => ['web', 'auth']], function () {
 
 */
 
-
-Route::post('/search', [SearchController::class, 'search'])->name('search');
+Route::post('/addcomment', [CommentController::class, 'store'])->name('addcommentpost');

@@ -50,7 +50,6 @@ function providersignuppost(Request $request)
         'address' => 'required',
         'contactnumber' => 'required',
         'services' => 'required',
-        'logo' => 'required'
     ]);
 
     $user = Auth::user();

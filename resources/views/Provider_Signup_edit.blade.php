@@ -13,21 +13,12 @@
 
 
 
-                <script> document.getElementById('photo').addEventListener('change', function() {
-    var file = this.files[0];
-    if (file) {
-        var reader = new FileReader();
-        reader.onload = function() {
-            document.getElementById('logo-preview').style.backgroundImage = 'url(' + reader.result + ')';
-        }
-        reader.readAsDataURL(file);
-    }
-});
-</script>
+
                 
                 <style>
                   /*s
                     Figma Background for illustrative/preview purposes only.
+                     <input type="file" class="upload_phoyo_265_4" name="logo" id="photo" accept="image/*">
                     You can remove this style tag with no consequence
                   */
                   body {background: #E5E5E5; }
@@ -55,7 +46,7 @@
                   <input type="text" class="rectangle_64_151_10" name="services" placeholder="Services" required>
                   <input type="tel" class="rectangle_65_151_11" name="contactnumber"placeholder="Contact Number"required>
                   <span  class="upload_logo_profile_picture_150_145">Upload Logo/Profile picture</span>
- <input type="file" class="upload_phoyo_265_4" name="logo" id="photo" accept="image/*">
+
 
                   <span  class="company_name__148_93">Company name:</span>
                   <span  class="contact_number__149_94">Contact Number:</span>
