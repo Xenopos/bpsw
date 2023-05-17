@@ -23,23 +23,21 @@
     </style>
   </head>
   <body>
-    <div class="service_providers_container">
-
-        <div class="profiless_188_60">
-          <div class="group_6_188_71">
-            <div class="rectangle_22_188_72"></div>
-            <span class="service_provider_name_188_73"></span>
-            <div class="rectangle_15_188_74"></div>
-            <div class="ellipse_1_188_75"></div>
-            <div class="account_188_76">
-              <div class="vector_188_77"></div>
-              <div class="vector_188_78"></div>
-            </div>
-            <span class="sample_photo_188_79">sample photo</span>
-            <span class="ratings_188_80">Ratings</span>
-          </div>
-        </div>
-
-    </div>
+<div class=onhover_profile_188_23  hover-element>
+  <div class=group_5_188_48>
+    <div class="rectangle_17_188_49"></div>
+    <div class="rectangle_19_188_51"></div>
+    <span  class="address__188_52">Address: </span>
+    <span  class="email_address__188_53">Email Address:</span>
+    <div class="rectangle_23_188_54"></div>
+    <span  class="service_provider_name_188_55">Service Provider Name</span>
+    <div class=account_188_56>
+      <div class="vector_188_57"></div>
+      <div class="vector_188_58"></div>
+    </div><span  class="contact_number__188_59">Contact Number:</span>
+  </div><span  class="sampleaddress_269_5">sampleaddress</span>
+  <span  class="samplecontact_269_6">samplecontact</span>
+  <span  class="sampleemail_269_7">sampleemail</span>
+</div>
   </body>
 </html>

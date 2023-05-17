@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use \App\Http\Controllers\NormalUserController;
 use \App\Http\Controllers\ServiceProviderController;
+use \App\Http\Controllers\SearchController;
 
 class AuthManager extends Controller
 {

@@ -28,16 +28,17 @@
         <div class=group_5_177_55>
           <div class="rectangle_4_177_56"></div>
           
-@if(Auth::user()->user_type == "special")
-  <a href="{{ route('providerprofilepage') }}" class="account_name_177_57">{{ Auth::user()->companyname }}</a>
-@else
-  <a href="{{ route('normaluserpage') }}" class="account_name_177_57">{{ Auth::user()->username }}</a>
-@endif
+            @if(Auth::user()->user_type == "special")
+             <a href="{{ route('providerprofilepage') }}" ><span class="account_name_177_57"> {{ Auth::user()->companyname }}</span></a>
+            @else
+            <a href="{{ route('normaluserpage') }}"><span class="account_name_177_57">{{ Auth::user()->username }}</span></a>
+            @endif
 
           <span class="bicol_car_service_providers_177_58">Bicol Car Service Providers</span>
           <a href="{{ route('homepage') }}"><span class="home_177_59">Home</span></a>
 
-<span class="messages_177_60"> <a href="{{ route('chatify') }}">Messages</a></span>
+<a href="{{ route('chatify') }}">
+  <span class="messages_177_60">Messages</span></a>
 
           <span class="notification_177_61">Notification</span>
         </div>

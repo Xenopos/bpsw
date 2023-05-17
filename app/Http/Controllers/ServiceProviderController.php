@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\NormalUserController;
 use App\Models\User;
+use \App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -23,6 +24,7 @@ class ServiceProviderController extends Controller
 
     public function providersprofiles()
     {
+        return view('providersprofiles');
     }
 
 public function providerprofileoverview($user_id)

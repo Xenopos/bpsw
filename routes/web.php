@@ -16,7 +16,7 @@ use App\Models\User;
 |4
 */
 
-
+Route::get('/', [App\Http\Controllers\AuthManager::class,'login'])->name('login');
 
 Route::get('/login');
 	
@@ -51,10 +51,10 @@ Route::post('/homepage', [AuthManager::class, 'homepagepost'])->name('homepage.p
 Route::get('/providerprofileeditpage', [ServiceProviderController::class, 'providerprofileeditpage'])->name('providerprofileeditpage');
 Route::post('/providerprofileeditpage', [ServiceProviderController::class, 'providerprofileeditpagepost'])->name('providerprofileeditpage.post');
 
-/*
+
 Route::get('/providersprofiles', [ServiceProviderController::class, 'providersprofiles'])->name('providersprofiles');
 Route::post('/providersprofiles', [ServiceProviderController::class, 'providersprofilespost'])->name('providersprofiles.post');
-*/ 
+
 
 
 Route::match(['get'], '/providerprofile/{user_id}', [ServiceProviderController::class, 'providerprofileoverview'])->name('providerprofileoverview');
@@ -98,3 +98,6 @@ Route::group(['middleware' => ['web', 'auth']], function () {
 });
 
 */
+
+
+Route::post('/search', [SearchController::class, 'search'])->name('search');

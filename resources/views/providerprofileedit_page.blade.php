@@ -1,7 +1,7 @@
 
 
 
-
+ 
 @extends('homepage_heading')
 <html lang="en">
           <head>
@@ -63,8 +63,7 @@
 
         <input type="text" class="rectangle_49_249_12" name="companyname" value="{{ $user->companyname ?? '' }}">
     <div class=group_33_251_19>
-                <input type="submit" value="save" class="rectangle_70_251_17">
-    <span  class="save_251_18">Save</span>
+     <input type="submit" value="Save" class="rectangle_70_251_17">
   </div>
 </form>
     <div class=group_27_178_4>

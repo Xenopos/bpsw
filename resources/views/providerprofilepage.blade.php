@@ -27,7 +27,7 @@
   <div class="rectangle_28_232_5"></div>
   <div class=group_22_150_137>
     <div class="rectangle_36_101_163"></div>
-<a href="{{ route('providerprofileeditpage') }}" class="edit_profile_232_6">Edit Profile</a>
+<a href="{{ route('providerprofileeditpage') }}" ><span class="edit_profile_232_6">Edit Profile</span></a>
 
     <span  class="profile_overview_101_164">Profile Overview</span><span  class="terms_and_conditions_232_9">Terms and Conditions</span>
 
